@@ -30,7 +30,8 @@ def upload():
         new_image = {
             "id": len(db['image']) + 1,
             "user_id": int(user_id),
-            "filename": filename
+            "filename": filename,
+            "comments": []
         }
     
         db['image'].append(new_image)

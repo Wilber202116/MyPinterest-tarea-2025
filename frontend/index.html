@@ -13,7 +13,7 @@
 <!-- navbar -->
     <nav class="blue">
         <div class="nav-wrapper container">
-            <a href="#" class="brand-logo">MyGalleryBonsai</a>
+            <a href="#" class="brand-logo" style="position: static;">MyGalleryBonsai</a>
             <ul class="right">
                 <li id="li-general"><a id="btn-general">Galeria general</a></li>
                 <li id="li-pictures"><a id="btn-mypictures">Mi galeria</a></li>
@@ -22,7 +22,7 @@
             </ul>
         </div>
     </nav>
-<!-- el bonton para agregar imagenes -->
+<!-- el boton para agregar imagenes -->
     <div class="fixed-action-btn">
         <a id="fab-upload" class="btn-floating btn-large blue">
             <i class="material-icons">add_a_photo</i>
@@ -34,8 +34,26 @@
     <!-- input para recibir el archivo -->
     <input type="file" id="image-input" accept="image/*" style="display: none;">
 
+    <!-- Muestra de informacion -->
     <div id="container-images" class="container">
         <div class="section">
+
+            <!-- Muestra el loader de cada una de las imagenes -->
+            <div id="loader" class="center-align" style="margin-top: 50px; display: block;">
+                <div class="preloader-wrapper active">
+                    <div class="spinner-layer spinner-blue-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-path">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- muestra las imagenes -->
             <div class="row" id="gallery">
             </div>
@@ -49,7 +67,7 @@
         }
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="JavaScript/home.js"></script>
+    <script type="module" src="JavaScript/home/main.js"></script>
     <script src="JavaScript/auth/logout.js"></script>
 </body>
 </html>

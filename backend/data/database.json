@@ -82,6 +82,37 @@
       "id": 8,
       "user_id": 3,
       "filename": "Fishing_Stars_by_yuumei_on_DeviantArt.jpg",
+      "comments": [
+        {
+          "user_id": 1,
+          "text": "buen fondo rey"
+        },
+        {
+          "user_id": 1,
+          "text": "gracis bro"
+        },
+        {
+          "user_id": 1,
+          "text": "preuba 2"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "user_id": 3,
+      "filename": "dasd.png",
+      "comments": []
+    },
+    {
+      "id": 10,
+      "user_id": 1,
+      "filename": "Bocchi_the_ciber.jpg",
+      "comments": []
+    },
+    {
+      "id": 11,
+      "user_id": 1,
+      "filename": "oso.jpg",
       "comments": []
     }
   ]
