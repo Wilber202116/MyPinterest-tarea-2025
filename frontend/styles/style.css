@@ -1,0 +1,93 @@
+.center-row {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/*afecta al card del login y el card general de las imagenes en mygallery no queda
+asi que lo voy a dejar asif*/
+.card{
+    padding: 20px; /*margenes internos*/
+    border-radius: 20px; /* Bordes redondos*/
+}
+
+.input-filed input{
+    color: #0D47A1;
+}
+
+.input-filed label{
+    color: #1976d2;
+}
+
+.btn{
+    width: 100%;
+    background-color: #0D47A1;
+}
+
+.btn:hover{
+    
+    background-color: #1976d2;
+}
+
+.card-image{
+    display: flex;
+    justify-content: center;
+}
+
+.imagena{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 150px;
+    object-fit: cover;
+}
+
+#title2{
+    font-size: 32px;
+    background-color: whitesmoke;
+    padding: 2px 2px;
+}
+
+body{
+    background-image: url('https://images2.alphacoders.com/113/1130693.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+
+
+#icon1 {
+    margin-top: 15px;
+    position: relative;
+    top: 8px;
+}
+
+#icon2{
+    position: relative;
+    top: 2px;
+}
+
+#login-loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    text-align: center;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+#login-loader .preloader-wrapper{
+    margin: 0 auto;
+}
+
+#container-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: 100%;
+    text-align: right;
+}

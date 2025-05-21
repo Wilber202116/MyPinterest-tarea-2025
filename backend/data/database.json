@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "calos",
+      "password": "calve1223"
+    },
+    {
+      "id": 2,
+      "username": "rodigo",
+      "password": "1223"
+    },
+    {
+      "id": 3,
+      "username": "peldimo",
+      "password": "peldimo123"
+    }
+  ],
+  "image":[
+    {
+      "id": 1,
+      "user_id": 2,
+      "filename": "nissan pao.jpg"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "filename": "bonsai1.jpg"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "filename": "bonsai2.jpg"
+    },
+    {
+      "id": 4,
+      "user_id": 3,
+      "filename": "nissan pao trasero.jpg"
+    },
+    {
+      "id":5,
+      "user_id":1,
+      "filename": "pogart.jpg"
+    }
+
+  ]
+}
