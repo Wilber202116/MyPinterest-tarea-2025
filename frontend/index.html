@@ -11,54 +11,26 @@
 </head>
 <body id="body2">
 <!-- navbar -->
-    <nav class="blue">
-        <div class="nav-wrapper container">
-            <a href="#" class="brand-logo" style="position: static;">MyGalleryBonsai</a>
-            <ul class="right">
-                <li id="li-general"><a id="btn-general">Galeria general</a></li>
-                <li id="li-pictures"><a id="btn-mypictures">Mi galeria</a></li>
-                <li id="li-logout">
-                    <a id="btn-logout" class="blue-text text-lighten-5">Cerrar sesion</a></li>
-            </ul>
-        </div>
-    </nav>
+    <my-ownnavbar></my-ownnavbar>
+    
 <!-- el boton para agregar imagenes -->
-    <div class="fixed-action-btn">
-        <a id="fab-upload" class="btn-floating btn-large blue">
-            <i class="material-icons">add_a_photo</i>
-        </a>
-    </div>
-
-    <h4 id="user_greeting"></h4>
-
-    <!-- input para recibir el archivo -->
-    <input type="file" id="image-input" accept="image/*" style="display: none;">
+    <myimage-uploader></myimage-uploader>
 
     <!-- Muestra de informacion -->
     <div id="container-images" class="container">
         <div class="section">
+            <!-- el saludo al usuario -->
+            <user-greeting></user-greeting>
 
             <!-- Muestra el loader de cada una de las imagenes -->
-            <div id="loader" class="center-align" style="margin-top: 50px; display: block;">
-                <div class="preloader-wrapper active">
-                    <div class="spinner-layer spinner-blue-only">
-                        <div class="circle-clipper left">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="gap-path">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="circle-clipper right">
-                            <div class="circle"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <spinner-loader></spinner-loader>
             <!-- muestra las imagenes -->
-            <div class="row" id="gallery">
-            </div>
+            <myimage-gallery></myimage-gallery>
         </div>
     </div>
+
+    <my-footer></my-footer>
+
     <!-- script para el index.html -->
     <script>
         const userId = localStorage.getItem("user_id");
@@ -66,8 +38,14 @@
             window.location.href = 'login.html'
         }
     </script>
+    <script type="module" src="./components/navbar.js"></script>
+    <script type="module" src="./components/welcomeGreeting.js"></script>
+    <script type="module" src="./components/spinnerloader.js"></script>
+    <script type="module" src="./components/imageGallery.js"></script>
+    <script type="module" src="./components/imageUploader.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="module" src="JavaScript/home/main.js"></script>
     <script src="JavaScript/auth/logout.js"></script>
+    <script type="module" src="./components/footer.js"></script>
 </body>
 </html>

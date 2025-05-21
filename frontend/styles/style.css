@@ -5,8 +5,8 @@
     
 }
 
-/*afecta al card del login y el card general de las imagenes en mygallery no queda
-asi que lo voy a dejar asif*/
+/*afecta al card del login y el card general de las imagenes en mygallery no queda mal
+asi que lo voy a dejar asi*/
 .card{
     padding: 20px; /*margenes internos*/
     border-radius: 20px; /* Bordes redondos*/
@@ -90,4 +90,11 @@ body{
     justify-content: right;
     width: 100%;
     text-align: right;
+}
+
+#user_greeting{
+    align-items: left;
+    align-content: left;
+    text-align: left;
+    padding-left: 15px;
 }
