@@ -16,32 +16,73 @@
       "password": "peldimo123"
     }
   ],
-  "image":[
+  "image": [
     {
       "id": 1,
       "user_id": 2,
-      "filename": "nissan pao.jpg"
+      "filename": "nissan pao.jpg",
+      "comments": [
+        {
+          "user_id": 2,
+          "text": "La primera vez que conduci este tipo de carro me ha encantado muchisimo"
+        }
+      ]
     },
     {
       "id": 2,
       "user_id": 1,
-      "filename": "bonsai1.jpg"
+      "filename": "bonsai1.jpg",
+      "comments": [
+        {
+          "user_id": 1,
+          "text": "baby"
+        },
+        {
+          "user_id": 3,
+          "text": "hermoso bonsai"
+        }
+      ]
     },
     {
       "id": 3,
       "user_id": 1,
-      "filename": "bonsai2.jpg"
+      "filename": "bonsai2.jpg",
+      "comments": []
     },
     {
       "id": 4,
       "user_id": 3,
-      "filename": "nissan pao trasero.jpg"
+      "filename": "nissan pao trasero.jpg",
+      "comments": [
+        {
+          "user_id": 1,
+          "text": "hermoso carrito"
+        }
+      ]
     },
     {
-      "id":5,
-      "user_id":1,
-      "filename": "pogart.jpg"
+      "id": 5,
+      "user_id": 1,
+      "filename": "pogart.jpg",
+      "comments": []
+    },
+    {
+      "id": 6,
+      "user_id": 3,
+      "filename": "56.jpg",
+      "comments": []
+    },
+    {
+      "id": 7,
+      "user_id": 3,
+      "filename": "HatsuneMiku.jpg",
+      "comments": []
+    },
+    {
+      "id": 8,
+      "user_id": 3,
+      "filename": "Fishing_Stars_by_yuumei_on_DeviantArt.jpg",
+      "comments": []
     }
-
   ]
 }
