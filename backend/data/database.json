@@ -25,6 +25,10 @@
         {
           "user_id": 2,
           "text": "La primera vez que conduci este tipo de carro me ha encantado muchisimo"
+        },
+        {
+          "user_id": 1,
+          "text": "fsadfsadf"
         }
       ]
     },
@@ -40,6 +44,10 @@
         {
           "user_id": 3,
           "text": "hermoso bonsai"
+        },
+        {
+          "user_id": 1,
+          "text": "buen bonsai"
         }
       ]
     },
@@ -57,6 +65,10 @@
         {
           "user_id": 1,
           "text": "hermoso carrito"
+        },
+        {
+          "user_id": 1,
+          "text": "comentario"
         }
       ]
     },
@@ -113,6 +125,18 @@
       "id": 11,
       "user_id": 1,
       "filename": "oso.jpg",
+      "comments": []
+    },
+    {
+      "id": 12,
+      "user_id": 1,
+      "filename": "71.jpg",
+      "comments": []
+    },
+    {
+      "id": 13,
+      "user_id": 1,
+      "filename": "fHPzy0ln.jpg",
       "comments": []
     }
   ]
